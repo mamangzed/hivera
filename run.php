@@ -2,7 +2,6 @@
 echo "Masukan URL: ";
 $url = trim(fgets(STDIN));
 
-$u = "https://api.hivera.org/engine/info?auth_data=user=%7B%22id%22:7097743626,%22first_name%22:%22I%22,%22last_name%22:%22%22,%22username%22:%22Gguggffffffffghh%22,%22language_code%22:%22en%22,%22allows_write_to_pm%22:true,%22photo_url%22:%22https:%5C%2F%5C%2Ft.me%5C%2Fi%5C%2Fuserpic%5C%2F320%5C%2FjsJ8unqqjDDR12D2BOvWJfQcqe72G6JdT3GOQ_3XPhxMtMAvCK_ky8owJtJJlFGv.svg%22%7D%26chat_instance=4506362560145935621%26chat_type=sender%26auth_date=1734648861%26signature=rKBxv_Cc8XeEKMYyg3H_ntaqAvhtaHg8DZx66tzSIYCmROCtCzXydyKChEaXariik__gf3p1BH1DSSCEMPJGCQ%26hash=0b94ce2f15c83437803f237f5b4af1dc8c1d81376da77c8652d703ba1a3a756f";
 $urlInfo = $url;
 $parsed_url = parse_url($url);
 $query_string = $parsed_url['query'];
