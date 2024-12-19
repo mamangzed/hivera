@@ -19,4 +19,4 @@ pkg update && pkg upgrade
 pkg install php
 git clone https://github.com/mamangzed/hivera
 cd hivera
-php run.php```
+php run.php
