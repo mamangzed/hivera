@@ -17,6 +17,7 @@ Pastikan Termux Anda diperbarui ke versi terbaru.
 ```bash
 pkg update && pkg upgrade
 pkg install php
+pkg install git
 git clone https://github.com/mamangzed/hivera
 cd hivera
 php run.php
