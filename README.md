@@ -12,13 +12,11 @@ Sebelum menjalankan Hivera, pastikan Anda memiliki:
 
 Ikuti langkah-langkah berikut untuk menjalankan Hivera di Termux:
 
-### 1. Update dan Upgrade Termux
+### 1. Cara penggunaan
 Pastikan Termux Anda diperbarui ke versi terbaru.
 ```bash
 pkg update && pkg upgrade
 pkg install php
 git clone https://github.com/mamangzed/hivera
 cd hivera
-php run.php
-
-
+php run.php```
